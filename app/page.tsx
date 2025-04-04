@@ -1,6 +1,6 @@
 "use client";
 
-import {searchArts} from "@/app/api/searchArts/route";
+import {searchArts} from "@/app/api/searchArts/action";
 import {useState} from "react";
 import {ArtProps} from "@/types";
 import ArtsDisplay from "@/components/ArtsDisplay";
